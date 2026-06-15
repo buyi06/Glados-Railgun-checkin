@@ -12,6 +12,10 @@ on:
   watch:
     types: started
 
+permissions:
+  contents: write
+  actions: write
+
 jobs:
   build:
     name: glados/railgun checkin
